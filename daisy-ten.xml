@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device -->
+<project path="device/xiaomi/daisy" name="TogoFire/android_device_xiaomi_daisy" remote="github" revision="xtended" />
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/daisy" name="Aarqw12/kernel_loki" remote="github" revision="loki-stable" />
+
+<!-- Vendor -->
+<project path="vendor/xiaomi" name="TogoFire/android_vendor_xiaomi_daisy" remote="github" revision="daisy-ten" />
+
+</manifest>
