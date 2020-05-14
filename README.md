@@ -4,7 +4,7 @@ I'm integrated stable sources in this local manifest. You can use copying into .
 
 # Shortcut to be faster:
 
-DT: https://github.com/TogoFire/tree_device_xiaomi_daisy
+DT: https://github.com/TogoFire/device-xiaomi-daisy
 
 https://github.com/TogoFire/android_device_xiaomi_daisy
 
