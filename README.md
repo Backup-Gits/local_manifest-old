@@ -71,7 +71,7 @@ DolbyDigitalPlus:
 
 git fetch https://github.com/TogoFire/android_vendor_xiaomi_daisy && git cherry-pick 586088c496b6dfd8d6248b5c517d6dc19e6ca611
 
-https://github.com/TogoFire/android_device_xiaomi_daisy/commit/83807e72361c467e3d073984fcf7fb089671559a
+https://github.com/TogoFire/device-xiaomi-daisy/commit/20ef362ef25ae7167a22d67851cc1c8d9effb8e9
 
 https://github.com/TogoFire/vendor_ExclusivePack/blob/80f5667a89553135bb4156f3120d2d08b02d62bb/ExclusivePack/config.mk#L24
 
