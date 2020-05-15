@@ -6,16 +6,6 @@ I'm integrated stable sources in this local manifest. You can use copying into .
 
 DT: https://github.com/TogoFire/device-xiaomi-daisy
 
-https://github.com/TogoFire/android_device_xiaomi_daisy
-
-https://github.com/lupesoltec/android_device_xiaomi_daisy/tree/ten
-
-https://github.com/lupesoltec/android_device_xiaomi_daisy/tree/xtended
-
-https://github.com/acras01/android_device_xiaomi_daisy
-
-https://github.com/PixelExperience-Devices/device_xiaomi_sakura
-
 VT: https://github.com/acras01/android_vendor_xiaomi_daisy
 
 https://github.com/lupesoltec/vendor_xiaomi_daisy/tree/daisy-ten
@@ -44,8 +34,6 @@ git clone https://github.com/Aarqw12/kernel_reborn -b LA.UM.8.6.2.r1/daisy kerne
 git clone https://github.com/TogoFire/vendor_MiuiCamera -b ten vendor/xiaomi/MiuiCamera
 
 git clone https://github.com/TogoFire/vendor_ExclusivePack -b master vendor/xiaomi
-
-git clone https://github.com/acras01/android_device_xiaomi_daisy -b ten device/xiaomi/daisy
 
 git clone https://github.com/acras01/android_vendor_xiaomi_daisy -b ten vendor/xiaomi/daisy
 
