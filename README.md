@@ -6,17 +6,13 @@ I'm integrated stable sources in this local manifest. You can use copying into .
 
 DT: https://github.com/TogoFire/device-xiaomi-daisy
 
-VT: https://github.com/acras01/android_vendor_xiaomi_daisy
+VT: https://github.com/lupesoltec/vendor_daisy
 
-https://github.com/lupesoltec/vendor_xiaomi_daisy/tree/daisy-ten
-
-https://github.com/TogoFire/android_vendor_xiaomi_daisy
-
-https://github.com/mahajant99/vendor_xiaomi_sakura
-
-https://github.com/a-huk/vendor_xiaomi_daisy
+https://github.com/TogoFire/vendor_daisy
 
 KT: https://github.com/Aarqw12/kernel_reborn
+
+https://github.com/TogoFire/kernel_reborn
 
 https://github.com/PixysOS-Devices/kernel_xiaomi_msm8953-sakura/
 
