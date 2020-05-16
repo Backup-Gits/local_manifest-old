@@ -80,9 +80,18 @@ git clone https://github.com/LineageOS/android_packages_apps_Camera2 packages/ap
 https://github.com/TogoFire/device-xiaomi-daisy/blob/0190fd3be3f58863b49eac53af84c0a24ea59f86/device.mk#L160
 
 Volume control style miui:
-https://github.com/TogoFire/fwq-xq/commit/16ac2bb2192e6f8a69c8a54121a917a8d3c673be
+https://github.com/TogoFire/fwb-xq/commit/500cc88f09f11b9606aca1f8f1db4e12e214ea0d
 
-git fetch https://github.com/TogoFire/frameworks_base && git cherry-pick 52edef18b20ba981a34ad46153505d4719c04dc5
+git fetch https://github.com/TogoFire/fwb-xq xqm && git cherry-pick 500cc88f09f11b9606aca1f8f1db4e12e214ea0d
+
+ScreenShot: https://t.me/XtendedDaisy/142
+
+Volume controu sylte IOS and Miui:
+https://github.com/TogoFire/fwb-xq/commit/701b7a7dad73f76078937c24735ff2012807f811
+
+git fetch https://github.com/TogoFire/fwb-xq xq-rvd && git cherry-pick 701b7a7dad73f76078937c24735ff2012807f811
+
+ScreenShot: https://t.me/XtendedDaisy/179
 
 Channel: https://t.me/XtendedDaisy
 
