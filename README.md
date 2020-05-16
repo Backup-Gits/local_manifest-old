@@ -23,7 +23,7 @@ MiuiCam: https://github.com/TogoFire/vendor_MiuiCamera
 ExclusivePack: https://github.com/TogoFire/vendor_ExclusivePack
 
 
-git clone https://github.com/TogoFire/tree_device_xiaomi_daisy -b xtended device/xiaomi/daisy
+git clone https://github.com/TogoFire/device-xiaomi-daisy -b xtended device/xiaomi/daisy
 
 git clone https://github.com/Aarqw12/kernel_reborn -b LA.UM.8.6.2.r1/daisy kernel/xiaomi/daisy
 
@@ -31,7 +31,7 @@ git clone https://github.com/TogoFire/vendor_MiuiCamera -b ten vendor/xiaomi/Miu
 
 git clone https://github.com/TogoFire/vendor_ExclusivePack -b master vendor/xiaomi
 
-git clone https://github.com/acras01/android_vendor_xiaomi_daisy -b ten vendor/xiaomi/daisy
+git clone https://github.com/lupesoltec/vendor_daisy -b ten vendor/xiaomi/daisy
 
 git clone https://github.com/lupesoltec/kernel_loki -b 4.9.222 kernel/xiaomi/daisy
 
