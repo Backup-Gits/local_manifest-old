@@ -4,7 +4,7 @@ I'm integrated stable sources in this local manifest. You can use copying into .
 
 # Shortcut to be faster:
 
-DT: https://github.com/TogoFire/device-xiaomi-daisy
+DT: https://github.com/TogoFire/device_xiaomi_daisy
 
 VT: https://github.com/lupesoltec/vendor_daisy
 
@@ -23,7 +23,7 @@ MiuiCam: https://github.com/TogoFire/vendor_MiuiCamera
 ExclusivePack: https://github.com/TogoFire/vendor_ExclusivePack
 
 
-git clone https://github.com/TogoFire/device-xiaomi-daisy -b xtended device/xiaomi/daisy
+git clone https://github.com/TogoFire/device-xiaomi-daisy -b xq device/xiaomi/daisy
 
 git clone https://github.com/Aarqw12/kernel_reborn -b LA.UM.8.6.2.r1/daisy kernel/xiaomi/daisy
 
