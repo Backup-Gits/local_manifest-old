@@ -2,12 +2,12 @@
 <manifest>
 
 <!-- Device -->
-<project path="device/xiaomi/daisy" name="TogoFire/tree_device_xiaomi_daisy" remote="github" revision="xtended" />
+<project path="device/xiaomi/daisy" name="TogoFire/device_xiaomi_daisy" remote="github" revision="xq" />
 
 <!-- Kernel -->
 <project path="kernel/xiaomi/daisy" name="Aarqw12/kernel_reborn" remote="github" revision="LA.UM.8.6.2.r1/daisy" />
 
 <!-- Vendor -->
-<project path="vendor/xiaomi" name="VT_vendor_xiaomi_daisy" remote="github" revision="daisy-ten" />
+<project path="vendor/xiaomi" name="lupesoltec/vendor_daisy" remote="github" revision="ten" />
 
 </manifest>
