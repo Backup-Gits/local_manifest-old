@@ -25,13 +25,11 @@ ExclusivePack: https://github.com/TogoFire/vendor_ExclusivePack
 
 git clone https://github.com/TogoFire/device-xiaomi-daisy -b xq device/xiaomi/daisy
 
+git clone https://github.com/lupesoltec/vendor_daisy -b ten vendor/xiaomi/daisy
+
 git clone https://github.com/Aarqw12/kernel_reborn -b LA.UM.8.6.2.r1/daisy kernel/xiaomi/daisy
 
-git clone https://github.com/TogoFire/vendor_MiuiCamera -b ten vendor/xiaomi/MiuiCamera
-
 git clone https://github.com/TogoFire/vendor_ExclusivePack -b master vendor/xiaomi
-
-git clone https://github.com/lupesoltec/vendor_daisy -b ten vendor/xiaomi/daisy
 
 git clone https://github.com/lupesoltec/kernel_loki -b 4.9.222 kernel/xiaomi/daisy
 
@@ -67,7 +65,7 @@ DolbyDigitalPlus:
 
 git fetch https://github.com/TogoFire/android_vendor_xiaomi_daisy && git cherry-pick 586088c496b6dfd8d6248b5c517d6dc19e6ca611
 
-https://github.com/TogoFire/device-xiaomi-daisy/commit/20ef362ef25ae7167a22d67851cc1c8d9effb8e9
+https://github.com/TogoFire/device_xiaomi_daisy/commit/20ef362ef25ae7167a22d67851cc1c8d9effb8e9
 
 https://github.com/TogoFire/vendor_ExclusivePack/blob/80f5667a89553135bb4156f3120d2d08b02d62bb/ExclusivePack/config.mk#L24
 
@@ -86,7 +84,7 @@ git fetch https://github.com/TogoFire/fwb-xq xqm && git cherry-pick 500cc88f09f1
 
 ScreenShot: https://t.me/XtendedDaisy/142
 
-Volume controu sylte IOS and Miui:
+Volume control sylte IOS and Miui:
 https://github.com/TogoFire/fwb-xq/commit/701b7a7dad73f76078937c24735ff2012807f811
 
 git fetch https://github.com/TogoFire/fwb-xq xq-rvd && git cherry-pick 701b7a7dad73f76078937c24735ff2012807f811
@@ -100,11 +98,7 @@ Channel: https://t.me/XtendedDaisy
 
 [@lupesoltec](https://github.com/lupesoltec) - LupeSolTec
 
-[@acras01](https://github.com/acras01) - Acras
-
 [@TogoFire](https://github.com/TogoFire) - Togo77
-
-[@ZIDAN44](https://github.com/ZIDAN44) - ZIDAN44
 
 [@vmanoel00](https://github.com/vitor00almei) - Vitor
 
