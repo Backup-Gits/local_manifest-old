@@ -91,7 +91,17 @@ git fetch https://github.com/TogoFire/fwb-xq xq-rvd && git cherry-pick 701b7a7da
 
 ScreenShot: https://t.me/XtendedDaisy/179
 
-Channel: https://t.me/XtendedDaisy
+# Chat & Channels: 
+
+https://t.me/TogoFireWork
+
+https://t.me/LuPeSolTec_Work
+
+https://t.me/A2LiteOfficial
+
+https://t.me/XtendedDaisy
+
+https://t.me/LuPeS0lTec
 
 
 # Credits
