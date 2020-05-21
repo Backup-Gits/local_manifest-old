@@ -93,7 +93,7 @@ ScreenShot: https://t.me/XtendedDaisy/179
 
 # Commit correctly
 
-*Authorship:
+Authorship:
 ```bash
 git status
 ```
@@ -111,10 +111,10 @@ git commit --amend --author "Author <email@address.com>"
 ```
 
 ```bash
-Co-Authored-By: Author < email@address.com > 
+Co-Authored-By: Author <email@address.com> 
 ```    
 
-*DELETE COMMIT
+DELETE COMMIT:
 ```bash
 git log (to see the commit and its hashes).
 ``` 
