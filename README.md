@@ -59,7 +59,7 @@ git fetch https://github.com/BlissRoms/platform_vendor_bliss.git && git cherry-p
 
 git fetch https://github.com/BlissRoms/platform_frameworks_base.git && git cherry-pick 8c2c777a95f086078fc82a0c59dba705ddfb9132
 
-git fetch https://github.com/BlissRoms/platform_packages_apps_Settings.git && git cherry-pick 519ca1d10b6c976b51afb82e61839f8979f19568
+git fetch https://github.com/BlissRoms/platform_packages_apps_Settings.git q-backup && git cherry-pick 519ca1d10b6c976b51afb82e61839f8979f19568
 
 DolbyDigitalPlus:
 
@@ -90,6 +90,32 @@ https://github.com/TogoFire/fwb-xq/commit/701b7a7dad73f76078937c24735ff2012807f8
 git fetch https://github.com/TogoFire/fwb-xq xq-rvd && git cherry-pick 701b7a7dad73f76078937c24735ff2012807f811
 
 ScreenShot: https://t.me/XtendedDaisy/179
+
+# Commit correctly
+
+*Authorship:
+
+git status
+
+git add *
+
+git commit -m 'your text'
+
+git commit --amend --author "Author <email@address.com>"
+
+Co-Authored-By: Author <email@address.com>
+
+*DELETE COMMIT
+
+git log (to see the commit and its hashes).
+
+Let's tag our last commit with a tag, so we can find it after removing commits:
+
+git tag (some word from the last commit. Or any words from the commit that you want to be deleted)
+
+git reset --hard [target commit hash] - Here you put what you want your last commit to be.
+git push -f (to force the push)
+
 
 # Chat & Channels: 
 
