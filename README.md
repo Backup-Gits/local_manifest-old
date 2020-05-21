@@ -101,9 +101,9 @@ git add *
 
 git commit -m 'your text'
 
-git commit --amend --author "Author <email@address.com>"
+git commit --amend --author "Author < email@address.com >"         *remove spaces <>
 
-Co-Authored-By: Author <email@address.com>
+Co-Authored-By: Author < email@address.com >            *remove spaces <>
 
 *DELETE COMMIT
 
