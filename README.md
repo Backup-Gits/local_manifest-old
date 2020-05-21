@@ -94,28 +94,42 @@ ScreenShot: https://t.me/XtendedDaisy/179
 # Commit correctly
 
 *Authorship:
-
+```bash
 git status
+```
 
+```bash
 git add *
+```
 
+```bash
 git commit -m 'your text'
+```
 
-git commit --amend --author "Author < email@address.com >"         *remove spaces <>
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
 
-Co-Authored-By: Author < email@address.com >            *remove spaces <>
+```bash
+Co-Authored-By: Author < email@address.com > 
+```    
 
 *DELETE COMMIT
-
+```bash
 git log (to see the commit and its hashes).
-
+``` 
 Let's tag our last commit with a tag, so we can find it after removing commits:
 
-git tag (some word from the last commit. Or any words from the commit that you want to be deleted)
-
+```bash
+git tag    (some word from the last commit. Or any words from the commit that you want to be deleted)
+```
+```bash
 git reset --hard [target commit hash] - Here you put what you want your last commit to be.
-git push -f (to force the push)
+```
 
+```bash
+git push -f   (to force the push)
+```
 
 # Chat & Channels: 
 
