@@ -10,7 +10,17 @@ VT: https://github.com/lupesoltec/vendor_daisy
 
 https://github.com/TogoFire/vendor_daisy
 
-KT: https://github.com/Aarqw12/kernel_reborn
+https://github.com/lupesoltec/vendor_xiaomi_daisy
+
+https://github.com/TogoFire/vt_xiaomi_daisy
+
+KT: https://github.com/RebornDaisyProject/lineage_msm8953
+
+https://github.com/PotatoDevices/kernel_xiaomi_daisy/
+
+https://github.com/TogoFire/lineage_msm8953
+
+https://github.com/RebornDaisyProject
 
 https://github.com/TogoFire/kernel_reborn
 
@@ -25,9 +35,13 @@ ExclusivePack: https://github.com/TogoFire/vendor_ExclusivePack
 
 git clone https://github.com/TogoFire/device-xiaomi-daisy -b xq device/xiaomi/daisy
 
-git clone https://github.com/lupesoltec/vendor_daisy -b ten vendor/xiaomi/daisy
+git clone https://github.com/ -b ten vendor/xiaomi/daisy
 
-git clone https://github.com/Aarqw12/kernel_reborn -b LA.UM.8.6.2.r1/daisy kernel/xiaomi/daisy
+git clone https://github.com/TogoFire/lineage_msm8953 -b daisy kernel/xiaomi/daisy
+
+git clone https://github.com/PotatoDevices/kernel_xiaomi_daisy -b croquette-release kernel/xiaomi/daisy
+
+git clone https://github.com/TogoFire/kernel_reborn -b LA.UM.8.6.2.r1/daisy kernel/xiaomi/daisy
 
 git clone https://github.com/TogoFire/vendor_ExclusivePack -b master vendor/xiaomi
 
@@ -36,6 +50,23 @@ git clone https://github.com/lupesoltec/kernel_loki -b 4.9.222 kernel/xiaomi/dai
 git clone https://github.com/PixysOS-Devices/kernel_xiaomi_msm8953-sakura -b ten kernel/xiaomi/daisy
 
 mv kernel/xiaomi/daisy/arch/arm64/configs/sakura_defconfig kernel/xiaomi/daisy/arch/arm64/configs/daisy_defconfig
+mv kernel/xiaomi/daisy/arch/arm64/configs/sleepy_defconfig kernel/xiaomi/daisy/arch/arm64/configs/daisy_defconfig
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+BUILDTYPE:
+
+user -	Limited access; suited for production;  User build is the one flashed on production phones. Has no root access.
+
+userdebug	 - Like user but with root access and debug capability; preferred for debugging; User debug build does not come with default root access but can be rooted. It also contains extra logging.
+
+eng	Development -  configuration with additional debugging tools; Engineering build comes with default root access.
+
+Sources: https://source.android.com/setup/build/building
+
+https://source.android.com/setup/develop/new-device
+
+https://stackoverflow.com/questions/13950589/difference-between-eng-and-user-debug-build-in-android
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -71,11 +102,9 @@ https://github.com/TogoFire/vendor_ExclusivePack/blob/80f5667a89553135bb4156f312
 
 Source: https://forum.xda-developers.com/android/software/mm-p-dolby-digital-plus-arise-20181115-t3868192
 
-Camera2:
+Camera2 For Xiaomi Davices (green cam fix):
 
-git clone https://github.com/LineageOS/android_packages_apps_Camera2 packages/apps/Camera2
-
-https://github.com/TogoFire/device-xiaomi-daisy/blob/0190fd3be3f58863b49eac53af84c0a24ea59f86/device.mk#L160
+git clone https://github.com/TogoFire/android_packages_apps_Camera2 packages/apps/Camera2
 
 Volume control style miui:
 https://github.com/TogoFire/fwb-xq/commit/500cc88f09f11b9606aca1f8f1db4e12e214ea0d
@@ -113,6 +142,7 @@ git commit --amend --author "Author <email@address.com>"
 ```bash
 Co-Authored-By: Author <email@address.com> 
 ```    
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 DELETE COMMIT:
 ```bash
@@ -130,6 +160,51 @@ git reset --hard [target commit hash] - Here you put what you want your last com
 ```bash
 git push -f   (to force the push)
 ```
+
+REVERT: 
+```bash
+git revert SHA
+```
+Example: git revert 9b99bb1bb6bdad80d6765d9a1175587600ae496e
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+CHANGE COMMIT DATE:
+
+It is important to give authorship to the author of the commit, and it is also very important that the exact date, time and day are also present.
+
+Logic: https://gist.github.com/TogoFire/ec177f4fbf4776c6d5bb69e66bd2ba5d
+```bash
+git rebase <commit-hash>^ -i
+```
+```bash
+GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
+```
+
+Example:
+```bash
+git commit --amend --no-edit --date "Fri, 07 Feb 2017 22:47:00 +0300"
+```
+To find out the exact date and time of the author, put ".patch" at the end of the site, example:
+https://github.com/PixelExperience-Devices/device_xiaomi_lavender/commit/579accf69859b5100f04426ade2ad6d3cf7d8b40.patch
+
+Sources:
+
+https://codewithhugo.com/change-the-date-of-a-git-commit/
+
+https://gist.github.com/ythecombinator/7e70d7baea74305c93e6
+
+https://garysferrao.github.io/git/commit/date/2015/12/01/change-git-commit-date.html
+
+https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git
+
+https://confluence.atlassian.com/bitbucketserverkb/how-do-you-make-changes-on-a-specific-commit-779171729.html
+
+# GCC
+GCC Library:
+https://github.com/TogoFire/gcc_library
+
+The recommended for Daisy is: Linaro GCC 4.9-2017.01 Release
 
 # Chat & Channels: 
 
