@@ -219,10 +219,11 @@ python denials.py
 Make a txt called denials.txt and place your denials in them after that open a terminal in that directory and run this:
 python denials.py
 
-Your denials will be fixed and placed in fixes.txt
+Your denials will be fixed and placed in fixes.txt)
 
 
 Get log. Commands:
+
 dmesg -w | grep avc: > /sdcard/denials.txt
 
 dmesg > /sdcard/dmesg.txt
@@ -231,7 +232,9 @@ logcat -d -f /sdcard/logcat.txt
 
 LOGIC:
 scontext = file
+
 tcontext-> object_r = object
+
 tclass = class
 
 allow (scontext) (tcontext) :( tclass) {action}
