@@ -54,6 +54,7 @@ mv kernel/xiaomi/daisy/arch/arm64/configs/sleepy_defconfig kernel/xiaomi/daisy/a
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
 BUILDTYPE:
 
 user -	Limited access; suited for production;  User build is the one flashed on production phones. Has no root access.
@@ -102,7 +103,7 @@ https://github.com/TogoFire/vendor_ExclusivePack/blob/80f5667a89553135bb4156f312
 
 Source: https://forum.xda-developers.com/android/software/mm-p-dolby-digital-plus-arise-20181115-t3868192
 
-Camera2 For Xiaomi Davices (green cam fix):
+Camera2 for Xiaomi Devices (green cam fix):
 
 git clone https://github.com/TogoFire/android_packages_apps_Camera2 packages/apps/Camera2
 
@@ -168,6 +169,7 @@ git revert SHA
 Example: git revert 9b99bb1bb6bdad80d6765d9a1175587600ae496e
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 
 CHANGE COMMIT DATE:
 
