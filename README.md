@@ -35,7 +35,7 @@ ExclusivePack: https://github.com/TogoFire/vendor_ExclusivePack
 
 git clone https://github.com/TogoFire/device-xiaomi-daisy -b xq device/xiaomi/daisy
 
-git clone https://github.com/ -b ten vendor/xiaomi/daisy
+git clone https://github.com/TogoFire/vendor_daisy -b ten vendor/xiaomi/daisy
 
 git clone https://github.com/TogoFire/lineage_msm8953 -b daisy kernel/xiaomi/daisy
 
@@ -209,7 +209,7 @@ https://github.com/TogoFire/gcc_library
 
 The recommended for Daisy is: Linaro GCC 4.9-2017.01 Release
 
-# DENIALS/SPOLICY
+# DENIALS/SEPOLICY
 
 Script: https://github.com/TogoFire/selinux-denial-fixer
 
