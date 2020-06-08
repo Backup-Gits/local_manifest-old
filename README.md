@@ -113,14 +113,11 @@ https://github.com/TogoFire/fwb-xq/commit/500cc88f09f11b9606aca1f8f1db4e12e214ea
 
 git fetch https://github.com/TogoFire/fwb-xq xqm && git cherry-pick 500cc88f09f11b9606aca1f8f1db4e12e214ea0d
 
-ScreenShot: https://t.me/XtendedDaisy/142
-
 Volume control sylte IOS and Miui:
 https://github.com/TogoFire/fwb-xq/commit/701b7a7dad73f76078937c24735ff2012807f811
 
 git fetch https://github.com/TogoFire/fwb-xq xq-rvd && git cherry-pick 701b7a7dad73f76078937c24735ff2012807f811
 
-ScreenShot: https://t.me/XtendedDaisy/179
 
 # Commit correctly
 
