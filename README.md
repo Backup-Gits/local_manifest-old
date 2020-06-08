@@ -50,6 +50,7 @@ git clone https://github.com/lupesoltec/kernel_loki -b 4.9.222 kernel/xiaomi/dai
 git clone https://github.com/PixysOS-Devices/kernel_xiaomi_msm8953-sakura -b ten kernel/xiaomi/daisy
 
 mv kernel/xiaomi/daisy/arch/arm64/configs/sakura_defconfig kernel/xiaomi/daisy/arch/arm64/configs/daisy_defconfig
+
 mv kernel/xiaomi/daisy/arch/arm64/configs/sleepy_defconfig kernel/xiaomi/daisy/arch/arm64/configs/daisy_defconfig
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -208,6 +209,36 @@ https://github.com/TogoFire/gcc_library
 
 The recommended for Daisy is: Linaro GCC 4.9-2017.01 Release
 
+# DENIALS/SPOLICY
+
+Script: https://github.com/TogoFire/selinux-denial-fixer
+
+python denials.py
+(DON'T FORGET CREATE FILE "denials.txt"
+
+Make a txt called denials.txt and place your denials in them after that open a terminal in that directory and run this:
+python denials.py
+
+Your denials will be fixed and placed in fixes.txt
+
+
+Get log. Commands:
+dmesg -w | grep avc: > /sdcard/denials.txt
+
+dmesg > /sdcard/dmesg.txt
+
+logcat -d -f /sdcard/logcat.txt
+
+LOGIC:
+scontext = file
+tcontext-> object_r = object
+tclass = class
+
+allow (scontext) (tcontext) :( tclass) {action}
+
+Sources: https://msfjarvis.website/posts/understanding-and-resolving-selinux-denials-on-android/
+https://github.com/baalajimaestro/selinux-denial-fixer
+
 # Chat & Channels: 
 
 https://t.me/TogoFireWork
@@ -216,7 +247,7 @@ https://t.me/LuPeSolTec_Work
 
 https://t.me/A2LiteOfficial
 
-https://t.me/XtendedDaisy
+https://t.me/TogoFireChannel
 
 https://t.me/LuPeS0lTec
 
